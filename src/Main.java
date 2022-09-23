@@ -24,8 +24,6 @@ public class Main {
         //cannot destroy object manually, ie no destructors in java ie automatic garbage collection
         //can specify actions to perform when object is (being) destroyed using finalize
     }
-
-
 }
 
 class Student {

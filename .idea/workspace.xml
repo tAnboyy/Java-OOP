@@ -4,19 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4e310dd8-d655-4c3c-96d3-32655a34a1d0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java_OOP.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+    <list default="true" id="4e310dd8-d655-4c3c-96d3-32655a34a1d0" name="Changes" comment="Classes, Objects, Constructors, wrapper classes, final, finalize">
+      <change afterPath="$PROJECT_DIR$/src/packages/packageA/Greeting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/packages/packageB/Greeting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/staticEg/Human.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/staticEg/InnerClasses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/staticEg/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/staticEg/StaticBlock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -25,7 +33,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2F4ygFIRC1Q9NToJLkYAjiBMqdW" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -36,10 +46,16 @@
     "RunOnceActivity.ShowReadmeOnStart": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+  <component name="RunManager" selected="Application.InnerClasses">
+    <configuration name="InnerClasses" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="staticEg.InnerClasses" />
       <module name="Java_OOP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="staticEg.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -58,11 +74,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StaticBlock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="staticEg.StaticBlock" />
+      <module name="Java_OOP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="staticEg.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="staticEg.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="staticEg.Main" />
+      <module name="Java_OOP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="staticEg.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.InnerClasses" />
+        <item itemvalue="Application.StaticBlock" />
+        <item itemvalue="Application.staticEg.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main (2)" />
-        <item itemvalue="Application.Main (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -75,6 +119,14 @@
       <option name="presentableId" value="Default" />
       <updated>1663765761671</updated>
     </task>
+    <task id="LOCAL-00001" summary="Classes, Objects, Constructors, wrapper classes, final, finalize">
+      <created>1663777690118</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1663777690118</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -87,5 +139,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Classes, Objects, Constructors, wrapper classes, final, finalize" />
+    <option name="LAST_COMMIT_MESSAGE" value="Classes, Objects, Constructors, wrapper classes, final, finalize" />
   </component>
 </project>
