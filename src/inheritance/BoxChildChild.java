@@ -21,5 +21,8 @@ public class BoxChildChild extends BoxChild {
     public BoxChildChild(double cost, double l, double h, double w, double weight) {
         super(l, h, w, weight);
         this.cost = cost;
+
+
+
     }
 }

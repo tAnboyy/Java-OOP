@@ -4,18 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4e310dd8-d655-4c3c-96d3-32655a34a1d0" name="Changes" comment="Packages, Static, Singleton class">
-      <change afterPath="$PROJECT_DIR$/src/inheritance/BoxBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/inheritance/BoxChild.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/inheritance/BoxChildChild.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/inheritance/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/polymorphism/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/polymorphism/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/polymorphism/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/polymorphism/Square.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/singleton/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/singleton/Singleton.java" afterDir="false" />
+    <list default="true" id="4e310dd8-d655-4c3c-96d3-32655a34a1d0" name="Changes" comment="Inheritance, Polymorphism, Encapsulation, Abstraction">
+      <change afterPath="$PROJECT_DIR$/src/objectclass/Example.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/objectclass/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/inheritance/BoxChildChild.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/inheritance/BoxChildChild.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/polymorphism/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/polymorphism/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,13 +43,26 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.polymorphism.Main">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="InnerClasses" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="staticEg.InnerClasses" />
       <module name="Java_OOP" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="staticEg.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="objectclass.Main" />
+      <module name="Java_OOP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="objectclass.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,26 +109,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="staticEg.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="staticEg.Main" />
-      <module name="Java_OOP" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="staticEg.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.polymorphism.Main" />
         <item itemvalue="Application.inheritance.Main" />
         <item itemvalue="Application.InnerClasses" />
         <item itemvalue="Application.StaticBlock" />
-        <item itemvalue="Application.staticEg.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -148,7 +142,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663899390008</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Inheritance, Polymorphism, Encapsulation, Abstraction">
+      <created>1664112403785</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1664112403785</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -172,6 +173,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Classes, Objects, Constructors, wrapper classes, final, finalize" />
     <MESSAGE value="Packages, Static, Singleton class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Packages, Static, Singleton class" />
+    <MESSAGE value="Inheritance, Polymorphism, Encapsulation, Abstraction" />
+    <option name="LAST_COMMIT_MESSAGE" value="Inheritance, Polymorphism, Encapsulation, Abstraction" />
   </component>
 </project>

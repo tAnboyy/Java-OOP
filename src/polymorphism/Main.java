@@ -24,5 +24,8 @@ public class Main {
 //        testGreeting.greeting();
 //        Shape.greeting();
         Circle.greeting(); //inherited
+
+
+        //outside the package, a protected member of parent class can only be accessed by subclass's object
     }
 }
